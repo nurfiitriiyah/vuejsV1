@@ -1,15 +1,15 @@
 <template>
   <div class="hello">
-    This is header
   </div>
 </template>
 
 <script>
   export default {
-    name: 'prepHeader',
+    name: 'login',
     data () {
       return {
-        msg: 'Welcome to Your Vue.js App'
+        msg: 'Welcome to Your Vue.js App',
+        step : 3
       }
     }
   }
